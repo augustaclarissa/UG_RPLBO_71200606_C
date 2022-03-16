@@ -7,7 +7,7 @@ public class VendingMachines {
     private int capacity;
     private int usedCapacity;
     private ArrayList<Goods> goods = new ArrayList<>();
-    private ArrayList<double> acceptanceBalance = new ArrayList<>();
+    private ArrayList<Double> acceptanceBalance = new ArrayList<>();
     private double consumerMoney;
 
     public VendingMachines(Codes code){
@@ -19,7 +19,7 @@ public class VendingMachines {
         this.capacity = capacity;
     }
 
-    public VendingMachines(String code, int capacity, int goods, ArrayList<Goods> goods, double[acceptanceBalance]){
+    public VendingMachines(String code, int capacity, int goods, ArrayList<Goods> goods, ArrayList<Double> acceptanceBalance){
         this.code = code;
         this.capacity = capacity;
     }
